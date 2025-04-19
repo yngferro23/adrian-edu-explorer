@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto max-w-4xl text-center">
         <BookOpen className="h-16 w-16 mx-auto mb-4 text-yellow-700" />
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Find Your Perfect University Programme
+          Find the Perfect Course by the Help of Yngferro Himself 😂
         </h2>
         <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
           Explore and filter through university programmes across Kenya based on your interests,
