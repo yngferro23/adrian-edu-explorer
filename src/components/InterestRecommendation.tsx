@@ -29,8 +29,8 @@ const InterestRecommendation: React.FC<InterestRecommendationProps> = ({ program
         headers: {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${import.meta.env.VITE_OPENROUTER_API_KEY}`,
-          'HTTP-Referer': 'http://localhost:5173',
-          'X-Title': 'University Programme Finder'
+          'HTTP-Referer': 'https://adrian-edu-explorer.vercel.app',
+          'X-Title': 'Adrian Edu Explorer'
         },
         body: JSON.stringify({
           model: "openai/gpt-3.5-turbo",
